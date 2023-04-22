@@ -1,0 +1,17 @@
+Index: options/test/SIDD/NAFNet-width64.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/options/test/SIDD/NAFNet-width64.yml b/options/test/SIDD/NAFNet-width64.yml
+--- a/options/test/SIDD/NAFNet-width64.yml	(revision 50cb1496d630dbc4165e0ff8f4b5893ca5fa00a1)
++++ b/options/test/SIDD/NAFNet-width64.yml	(date 1682176626146)
+@@ -8,7 +8,7 @@
+ name: NAFNet-SIDD-width64-test
+ model_type: ImageRestorationModel
+ scale: 1
+-num_gpu: 1 # set num_gpu: 0 for cpu mode
++num_gpu: 0 # set num_gpu: 0 for cpu mode
+ manual_seed: 10
+ 
+ # dataset and data loader settings
