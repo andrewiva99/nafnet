@@ -15,7 +15,7 @@ docker pull andreybg/nafnet
 ```
 docker run andreybg/nafnet
 ```
-4. Если тест пройден удачно, то результат работы сохранен в  /NAFNet/noisy1.png
+4. Если тест пройден, то результат работы сохранен в  /NAFNet/noisy1.png
 
 ![11](https://user-images.githubusercontent.com/112372506/233912727-f7ffc309-d279-4232-bab9-6706c170c637.jpg)
 
