@@ -19,7 +19,7 @@ docker run andreybg/nafnet
 
 ![11](https://user-images.githubusercontent.com/112372506/233912727-f7ffc309-d279-4232-bab9-6706c170c637.jpg)
 
-5. Результат можно скопировать в <folder_path>
+5. Исходное изображение и результат можно скопировать в <folder_path>
    
    Для этого узнайте CONTAINER ID 
    
@@ -28,6 +28,8 @@ docker run andreybg/nafnet
    ```
    А затем
    ```
+   docker cp <container_id>:/NAFNet/noisy.png <folder_path>
+   
    docker cp <container_id>:/NAFNet/noisy1.png <folder_path>
    ```
    
