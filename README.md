@@ -4,7 +4,7 @@
 [Репозиторий проекта NAFNet](https://github.com/megvii-research/NAFNet)
 
 
-### Запуск проекта
+### Запуск проекта с DockerHub
 
 1. Откройте Docker
 2. Скачайте образ 
@@ -33,4 +33,22 @@ docker run andreybg/nafnet
    docker cp <container_id>:/NAFNet/noisy1.png <folder_path>
    ```
    
+### Локальная сборка образа
+1. Склонировать репозиторий 
 
+```
+git clone https://github.com/andrewiva99/nafnet.git
+cd nafnet
+```
+
+2. Запустите Docker и соберите образ
+
+```
+docker build -t nafnet
+```
+
+3. Запустите контейнер
+
+```
+docker run nafnet
+```
