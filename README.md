@@ -20,26 +20,6 @@ docker run andreybg/nafnet
 ![11](https://user-images.githubusercontent.com/112372506/233912727-f7ffc309-d279-4232-bab9-6706c170c637.jpg)
 
  
-### Локальная сборка образа
-1. Склонировать репозиторий 
-
-```
-git clone https://github.com/andrewiva99/nafnet.git
-cd nafnet
-```
-
-2. Запустите Docker и соберите образ
-
-```
-docker build -t nafnet .
-```
-
-3. Запустите контейнер
-
-```
-docker run nafnet
-```
-
 #### Исходное изображение и результат можно скопировать в <folder_path>
    
    Для этого узнайте CONTAINER ID 
