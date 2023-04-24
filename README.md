@@ -31,7 +31,7 @@ cd nafnet
 2. Запустите Docker и соберите образ
 
 ```
-docker build -t nafnet
+docker build -t nafnet .
 ```
 
 3. Запустите контейнер
